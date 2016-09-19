@@ -1,0 +1,195 @@
+body{
+	background-color:black;
+	margin:0;
+	color:white;
+	overflow-x: hidden;
+	height:auto;
+}
+
+/* =====================Cabeçalho=========================== */
+
+#cabecalho{
+	background-color:#162422;
+	height:120px;
+	text-align:center;
+	padding:1%;
+}
+
+/* =====================Menu=========================== */
+
+/*-------Busca-------*/
+#divBusca{
+    background-color:#334543;
+	margin:4px;
+    border:none;
+    border-radius:2px;
+    width:20%;
+	height:80%;
+	float:right;
+}
+
+#divBusca img{
+	width:25px;
+	float: right;
+}
+ 
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:15px;
+    border:none;
+    height:32px;
+    width:80%;
+}
+
+/*-------Menu-------*/
+
+#todoMenu{
+	background-color:#162422;
+    margin:2% auto; /*  Altura margem e margem lat.  */
+    border:3px solid #334543; /* tamanho e cor da borda */
+    border-radius:6px;
+    width:80%; 
+    height:40px;	
+}
+
+#ativo{
+	background-color:#334543;
+}
+
+#linksMenu{
+	width:50%;
+}
+
+ul, li a{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+ul{		
+    font-family:'Oswald', sans-serif;
+    font-size:14px;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    line-height:15px;
+    padding:13px 18px;
+    text-decoration:none;
+    word-wrap:normal;
+    color:#fff;
+    text-shadow: 0 2px 1px black;
+    text-indent:5px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #334543;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #334543;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 9999;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #162422;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* =====================Corpo=========================== */
+
+.c1{
+    border:3px solid #334543; /* tamanho e cor da borda */
+    border-radius:6px;
+	width:62%;
+	padding:1%;
+	margin:1% auto;
+	background-color:#0c1917;
+}
+
+.c2{
+    border:3px solid #334543; /* tamanho e cor da borda */
+    border-radius:6px;
+	width:95%;
+	margin:1% auto;
+	background-color:#0c1917;
+}
+
+.imagensSmall img{
+	margin:1%;
+	padding:3px;
+	background-color:#334543;
+}
+
+.imagensMedium{
+	margin:auto;
+	text-align:center;
+}
+
+#imagemInicio{
+ 	background-color:black;
+}
+
+#imagemInicio img{
+	margin:1% auto; /*  Altura margem e margem lat.  */
+	width:100%;
+	height:600px;
+	position:relative;
+}
+
+/* =====================Rodapé=========================== */
+#rodape{
+	background-color:#162422;
+	height:100px;
+	float:bottom;
+	text-align:left;
+	padding-left:1%;
+	padding-top:1%;
+	margin-top:2%;
+	font-family:'Oswald', sans-serif;
+    font-size:14px;
+	text-shadow: 0 2px 1px black;
+    text-indent:5px;
+}
+
+#rodape a{
+	text-decoration:none;
+}
+
+#rodape img:hover { 
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+
+#rodape img{
+	padding-left:1%;
+	padding-right:1%;
+}
+

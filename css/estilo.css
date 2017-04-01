@@ -49,7 +49,7 @@ body{
 
 /*-------Menu-------*/
 
-#todoMenu{
+.todoMenu{
 	background-color:#162422;
     margin:2% auto; /*  Altura margem e margem lat.  */
     border:3px solid #334543; /* tamanho e cor da borda */
@@ -62,7 +62,7 @@ body{
 	background-color:#334543;
 }
 
-#linksMenu{
+.linksMenu{
 	width:100%;
 }
 
@@ -168,7 +168,7 @@ li.dropdown {
 }
 
 /* =====================Rodapé=========================== */
-#rodape{
+.rodape{
 	background-color:#162422;
 	height:100px;
 	float:bottom;
@@ -182,11 +182,11 @@ li.dropdown {
     text-indent:5px;
 }
 
-#rodape a{
+.rodape a{
 	text-decoration:none;
 }
 
-#rodape img{
+.rodape img{
 	padding-left:1%;
 	padding-right:1%;
 }
@@ -215,4 +215,34 @@ div#slider figure {
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite; 
+}
+
+/* =====================Responsabilidade=========================== */
+
+/*Tamanho pequeno*/
+@media (max-width:810px) {
+    .todoMenu{
+        width:90%;
+    }
+	
+	.c1{
+		width: 90%;
+		padding: 5px;
+	}
+
+    #divBusca{
+        display:none;
+    }
+    
+    #cabecalho{
+        height: 155px;
+    }
+    
+    #imgMobile{
+        width: 386px;
+    }
+    
+    .rodape{
+        height: 125px;
+    }
 }
